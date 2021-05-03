@@ -6,9 +6,19 @@ services:
       - ./backend/src:/app/src
     depends_on:
       - mongodb
+    deploy:
+      replicas: 2
   mongodb:
     image: mongo
     volumes:
       - db:/data/db
+  redis:
+    image: "redis:alpine"
+  nginx:
+    restart: always
+    build:
+      context: ./nginx
+    ports:
+      - "4000:80"
 volumes:
   db:
