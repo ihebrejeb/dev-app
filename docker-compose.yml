@@ -7,7 +7,7 @@ services:
     depends_on:
       - mongodb
     deploy:
-      replicas: 2
+      replicas: 4
   mongodb:
     image: mongo
     volumes:
