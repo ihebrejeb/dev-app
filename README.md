@@ -2,7 +2,7 @@
   <h3 align="center">Forum app</h3>
 
   <p align="center">
-   A docker dev envirnoment containing Node(express), mongodb and redis
+   A docker dev envirnoment containing Node(express), mongodb and redis with nginx as a load balancer
   </p>
 </p>
 
