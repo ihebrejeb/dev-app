@@ -1,5 +1,5 @@
 <p align="center">
-  <h3 align="center">Forum app</h3>
+  <h3 align="center">Dev app</h3>
 
   <p align="center">
    A docker dev envirnoment containing Node(express), mongodb and redis with nginx as a load balancer
@@ -19,11 +19,11 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/ihebrejeb/forum-app.git
+   git clone https://github.com/ihebrejeb/dev-app.git
    ```
 2. Change directory
    ```sh
-   cd forum-app
+   cd dev-app
    ``` 
 3. Start the project
    ```sh
